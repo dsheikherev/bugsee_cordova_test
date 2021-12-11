@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     }
   s.author       = { "Bugsee" => "contact@bugsee.com" }
   s.platform     = :ios, '5.0'
-  s.source       = { :http => "https:///pods/Bugsee.zip" }
+  s.source       = { :http => "https://github.com/dsheikherev/bugsee_cordova_test/raw/main/bugsee-cocoapods-xcframework.zip" }
   s.preserve_paths =  'Bugsee.xcframework/*'
   s.frameworks   = 'CoreGraphics', 'AVFoundation', 'CoreMedia', 'CoreMotion', 'SystemConfiguration', 'Foundation', 'CoreTelephony', 'UIKit'
   s.libraries    = 'c++'
